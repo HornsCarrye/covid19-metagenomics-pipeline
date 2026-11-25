@@ -1,0 +1,10 @@
+name: covid_pipeline
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  #- python=3.10
+  - quast=5.2.0
+  - samtools=1.9
+  - prokka=1.14.6
